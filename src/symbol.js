@@ -1,7 +1,9 @@
 export default class SpriteSymbol {
-  constructor({ id, viewBox, content }) {
+  constructor({ id, viewBox, width, height, content }) {
     this.id = id;
     this.viewBox = viewBox;
+    this.width = width;
+    this.height = height;
     this.content = content;
   }
 
@@ -20,6 +22,6 @@ export default class SpriteSymbol {
   }
 
   destroy() {
-    ['id', 'viewBox', 'content'].forEach(prop => delete this[prop]);
+    ['id', 'viewBox', 'width', 'height', 'content'].forEach(prop => delete this[prop]);
   }
 }
