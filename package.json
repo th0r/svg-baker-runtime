@@ -1,5 +1,5 @@
 {
-  "name": "svg-baker-runtime",
+  "name": "@workato/svg-baker-runtime",
   "version": "1.4.2",
   "description": "",
   "author": "JetBrains",
