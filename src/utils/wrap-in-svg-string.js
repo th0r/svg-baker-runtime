@@ -1,5 +1,5 @@
 import merge from 'deepmerge';
-import namespaces from 'svg-baker/namespaces';
+import namespaces from '@workato/svg-baker/namespaces';
 import objectToAttrsString from './object-to-attrs-string';
 
 const { svg, xlink } = namespaces;

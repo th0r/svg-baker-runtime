@@ -1,4 +1,4 @@
-import namespaces from 'svg-baker/namespaces';
+import namespaces from '@workato/svg-baker/namespaces';
 
 const { svg, xlink } = namespaces;
 
@@ -6,7 +6,7 @@ export default {
   attrs: {
     [svg.name]: svg.uri,
     [xlink.name]: xlink.uri,
-    style: ['position: absolute', 'width: 0', 'height: 0'].join('; '),
+    style: 'display: none',
     'aria-hidden': 'true'
   }
 };

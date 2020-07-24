@@ -1,4 +1,4 @@
-import namespaces from 'svg-baker/namespaces';
+import namespaces from '@workato/svg-baker/namespaces';
 import selectAttributes from './select-attributes';
 import arrayFrom from './array-from';
 
